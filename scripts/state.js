@@ -1,3 +1,4 @@
+// state.js
 export let currentFact = "";
 export const favorites = [];
 
