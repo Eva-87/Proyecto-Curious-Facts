@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Curious Facts SPA</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <img src="./assets/oip.webp" alt="icono" class="nav-icon">
+  <div class="logo">UseLessFacts – Curious Facts</div>
+  <nav class="nav">
+    <ul>
+      <li><a href="#fact">Hechos</a></li>
+      <li><a href="#favorites">Favoritos</a></li>
+      <li><a href="#curiosities">Curiosidades</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="two-column">
+
+  <div class="left">
+    <h1>Hechos Curiosos</h1>
+    <div id="fact"></div>
+    <button id="newFactBtn">Nuevo hecho</button>
+    <button id="saveBtn">Guardar en favoritos</button>
+
+    <section id="curiosities">
+      <h2>¿Sabías que...?</h2>
+      <textarea id="curiosityInput" placeholder="Escribe aquí tu curiosidad"></textarea>
+      <button id="addCuriosityBtn">Agregar curiosidad</button>
+      <ul id="curiosityList"></ul>
+
+      <img class="image" src="./assets/OIP (2).jpg" alt="cientifico-con-expresion-de-incertidumbre">
+    </section>
+  </div>
+
+
+  <aside class="right">
+    <h2>Favoritos</h2>
+    <ul id="favorites"></ul>
+  </aside>
+</main>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
