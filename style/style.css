@@ -195,18 +195,6 @@ button:hover {
     max-width: 100%;
   }
 }
-
-@media (max-width: 700px) {
-  .two-column {
-    flex-direction: column;
-  }
-  .right {
-    position: static;
-    max-height: none;
-    overflow: visible;
-  }
-}
-
 main {
   width: 100%;
   max-width: none;
@@ -220,3 +208,15 @@ main {
 .image{
   border-radius: 20%;
 }
+
+@media (max-width: 700px) {
+  .two-column {
+    flex-direction: column;
+  }
+  .right {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+}
+
